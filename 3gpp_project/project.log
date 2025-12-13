@@ -1,0 +1,18 @@
+{"asctime": "2025-12-12 16:46:40,338", "levelname": "INFO", "message": "Starting analysis", "file_count": 5}
+{"asctime": "2025-12-12 16:46:40,439", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29556_Neasdf_DNSContext.yaml"}
+{"asctime": "2025-12-12 16:46:40,492", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29557_Naf_ProSe.yaml"}
+{"asctime": "2025-12-12 16:46:40,550", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29558_Eecs_ACREvents.yaml"}
+{"asctime": "2025-12-12 16:46:40,639", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29558_Eecs_EESRegistration.yaml"}
+{"asctime": "2025-12-12 16:46:40,698", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29558_Eees_AppClientInformation.yaml"}
+{"asctime": "2025-12-12 16:46:40,701", "levelname": "INFO", "message": "Metadata saved to metadata.json"}
+{"asctime": "2025-12-12 16:46:40,703", "levelname": "INFO", "message": "Summary report appended to README.txt"}
+
+
+{"asctime": "2025-12-12 17:46:50,863", "levelname": "INFO", "message": "Starting analysis", "file_count": 5}
+{"asctime": "2025-12-12 17:46:50,970", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29556_Neasdf_DNSContext.yaml"}
+{"asctime": "2025-12-12 17:46:51,017", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29557_Naf_ProSe.yaml"}
+{"asctime": "2025-12-12 17:46:51,068", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29558_Eecs_ACREvents.yaml"}
+{"asctime": "2025-12-12 17:46:51,146", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29558_Eecs_EESRegistration.yaml"}
+{"asctime": "2025-12-12 17:46:51,209", "levelname": "INFO", "message": "Parsed file successfully", "file": "TS29558_Eees_AppClientInformation.yaml"}
+{"asctime": "2025-12-12 17:46:51,214", "levelname": "INFO", "message": "Metadata saved to metadata.json"}
+{"asctime": "2025-12-12 17:46:51,215", "levelname": "INFO", "message": "Summary report appended to README.txt"}

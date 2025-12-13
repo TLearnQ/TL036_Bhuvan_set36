@@ -1,0 +1,538 @@
+[
+  {
+    "file": "TS29556_Neasdf_DNSContext.yaml",
+    "title": "Neasdf_DNSContext",
+    "version": "1.2.0-alpha.3",
+    "description": "EASDF DNS Context Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "servers": [
+      "{apiRoot}/neasdf-dnscontext/v1"
+    ],
+    "tags": [],
+    "endpoints": [
+      {
+        "path": "/dns-contexts",
+        "method": "POST",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "201",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "502",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/dns-contexts/{dnsContextId}",
+        "method": "DELETE",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "502",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/dns-contexts/{dnsContextId}",
+        "method": "PATCH",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "501",
+          "502",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/dns-contexts/{dnsContextId}",
+        "method": "PUT",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "501",
+          "502",
+          "503",
+          "default"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "TS29557_Naf_ProSe.yaml",
+    "title": "Naf_ProSe API",
+    "version": "1.2.0-alpha.2",
+    "description": "Naf_ProSe Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "servers": [
+      "{apiRoot}/naf-prose/v1"
+    ],
+    "tags": [],
+    "endpoints": [
+      {
+        "path": "/authorize-discovery",
+        "method": "POST",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "502",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/authorization-update-result",
+        "method": "POST",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "502",
+          "503",
+          "504",
+          "default"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "TS29558_Eecs_ACREvents.yaml",
+    "title": "ACR Events Service",
+    "version": "1.0.0-alpha.2",
+    "description": "ACR Events Service.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "servers": [
+      "{apiRoot}/eecs-ae/v1"
+    ],
+    "tags": [],
+    "endpoints": [
+      {
+        "path": "/subscriptions",
+        "method": "POST",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "201",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/subscriptions/{subscriptionId}",
+        "method": "GET",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "406",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/subscriptions/{subscriptionId}",
+        "method": "PUT",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/subscriptions/{subscriptionId}",
+        "method": "PATCH",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/subscriptions/{subscriptionId}",
+        "method": "DELETE",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "TS29558_Eecs_EESRegistration.yaml",
+    "title": "ECS EES Registration_API",
+    "version": "1.2.0-alpha.4",
+    "description": "API for EES Registration.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "servers": [
+      "{apiRoot}/eecs-eesregistration/v1"
+    ],
+    "tags": [],
+    "endpoints": [
+      {
+        "path": "/registrations",
+        "method": "POST",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "201",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/registrations/{registrationId}",
+        "method": "GET",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "406",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/registrations/{registrationId}",
+        "method": "PUT",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/registrations/{registrationId}",
+        "method": "PATCH",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/registrations/{registrationId}",
+        "method": "DELETE",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "TS29558_Eees_AppClientInformation.yaml",
+    "title": "EES Application Client Information_API",
+    "version": "1.2.0-alpha.2",
+    "description": "API for EES Application Client Information.  \n\u00c2\u00a9 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC).  \nAll rights reserved.\n",
+    "servers": [
+      "{apiRoot}/eees-appclientinformation/v1"
+    ],
+    "tags": [],
+    "endpoints": [
+      {
+        "path": "/subscriptions",
+        "method": "POST",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "201",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/subscriptions/{subscriptionId}",
+        "method": "GET",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "406",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/subscriptions/{subscriptionId}",
+        "method": "PUT",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "204",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/subscriptions/{subscriptionId}",
+        "method": "PATCH",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "200",
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "411",
+          "413",
+          "415",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      },
+      {
+        "path": "/subscriptions/{subscriptionId}",
+        "method": "DELETE",
+        "auth": [
+          "oAuth2ClientCredentials"
+        ],
+        "response_codes": [
+          "204",
+          "307",
+          "308",
+          "400",
+          "401",
+          "403",
+          "404",
+          "429",
+          "500",
+          "503",
+          "default"
+        ]
+      }
+    ]
+  }
+]

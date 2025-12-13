@@ -1,0 +1,38 @@
+{
+  "files_processed": 5,
+  "total_endpoints": 21,
+  "http_methods": {
+    "POST": 6,
+    "DELETE": 4,
+    "PATCH": 4,
+    "PUT": 4,
+    "GET": 3
+  },
+  "auth_methods": [
+    "oAuth2ClientCredentials"
+  ],
+  "response_codes": [
+    "201",
+    "307",
+    "308",
+    "400",
+    "401",
+    "403",
+    "404",
+    "411",
+    "413",
+    "415",
+    "429",
+    "500",
+    "502",
+    "503",
+    "default",
+    "204",
+    "200",
+    "501",
+    "504",
+    "406"
+  ],
+  "missing_response_endpoints": 0,
+  "coverage_percentage": 100.0
+}
